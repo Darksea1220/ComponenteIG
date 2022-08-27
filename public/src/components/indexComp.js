@@ -1,0 +1,1 @@
+export{default as MyPost} from "./insta/insta.js";

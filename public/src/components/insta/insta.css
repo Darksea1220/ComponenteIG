@@ -1,0 +1,80 @@
+section{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.base{
+    background-color: white;
+    padding:25px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:2px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+.photo{
+    border-radius: 100%;
+    max-width: 40px;
+    max-height: 40px;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+.nam{
+    max-height: 25px;
+    font-family: 'Nunito', sans-serif
+}
+#dir{
+    font-size: 12px;
+}
+.dots{
+    display: flex;
+    justify-content: flex-end;
+}
+.post{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ppost{
+    width: 365px;
+    height: 365px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.space{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+}
+.position{
+    margin-left: -4.5rem;
+}
+.comments{
+    margin-bottom:20px;
+}
+.footer{
+    font-size:13px;
+    margin-bottom:-5px;
+    font-family: 'Nunito', sans-serif
+}
+.descrip{
+    color: rgb(160, 160, 160);
+}
